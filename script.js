@@ -81,6 +81,7 @@ const preguntas = [
 ];
 const preguntaTexto = document.getElementById("pregunta");
 
+const saludo= document.getElementById("saludo")
 const text1 = document.getElementById("text1");
 const text2 = document.getElementById("text2");
 function cargarPregunta() {
@@ -177,4 +178,11 @@ function mostrarResultado() {
   document.getElementById("fotoResultado").src = piloto.imagen;
   document.getElementById("descripcion").innerText = piloto.descripcion;
 }
+
+let piloto = prompt ("¿Cuál es tu piloto fav?");
+console.log (piloto);
+//alert("Hola, " + piloto);
+
+saludo.innerText= "Hola, "+ piloto;
+
 cargarPregunta();
