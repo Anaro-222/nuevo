@@ -18,11 +18,11 @@ const preguntas = [
     opciones: [
       {
         texto: "Arriesgado",
-        puntos: ["verstappen", "alonso"]
+        puntos: ["verstappen", "alonso", "norris"]
       },
       {
         texto: "Estratégico",
-        puntos: ["hamilton", "russell"]
+        puntos: ["hamilton", "russell", "piastri", "antonelli"]
       }
     ]
   },
@@ -31,11 +31,11 @@ const preguntas = [
     opciones: [
       {
         texto: "En equipo",
-        puntos: ["norris", "piastri"]
+        puntos: ["norris", "piastri", "colapinto", "antonelli"]
       },
       {
         texto: "Solo",
-        puntos: ["leclerc", "alonso"]
+        puntos: ["leclerc", "alonso", "verstappen"]
       }
     ]
   },
@@ -44,7 +44,7 @@ const preguntas = [
     opciones: [
       {
         texto: "Velocidad",
-        puntos: ["verstappen", "leclerc"]
+        puntos: ["verstappen", "leclerc", "checo"]
       },
       {
         texto: "Precisión",
@@ -57,11 +57,11 @@ const preguntas = [
     opciones: [
       {
         texto: "Exploto",
-        puntos: ["checo", "colapinto"]
+        puntos: ["russell", "colapinto"]
       },
       {
         texto: "Me enfoco",
-        puntos: ["alonso", "verstappen"]
+        puntos: ["alonso", "hamilton", "checo"]
       }
     ]
   },
@@ -70,11 +70,11 @@ const preguntas = [
     opciones: [
       {
         texto: "Carisma",
-        puntos: ["norris", "checo"]
+        puntos: ["norris", "checo", "leclerc", "colapinto"]
       },
       {
         texto: "Disciplina",
-        puntos: ["antonelli", "russell"]
+        puntos: ["antonelli", "piastri"]
       }
     ]
   }
@@ -117,48 +117,48 @@ const pilotos = {
   },
   norris: {
     nombre: "Lando Norris",
-    imagen: "https://via.placeholder.com/300",
+    imagen: "assets/Lando Norris.jpg",
     descripcion: "Eres carismático y divertido."
   },
   piastri: {
     nombre: "Oscar Piastri",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres agresivo y dominante."
+    imagen: "assets/Oscar piastri.jpg",
+    descripcion: "Eres calmado, inteligente y siempre tienes el control."
   },
   leclerc: {
     nombre: "Charles Leclerc",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres carismático y divertido."
+    imagen: "assets/Charles leclerc.png",
+    descripcion: "Eres intenso, apasionado y perfeccionista."
   },
   hamilton: {
     nombre: "Lewis Hamilton",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres agresivo y dominante."
+    imagen: "assets/lewis hamilton.jpg",
+    descripcion: "Eres disciplinado, elegante y con una mentalidad ganadora."
   },
   alonso: {
     nombre: "Fernando Alonso",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres carismático y divertido."
+    imagen: "assets/fernando alonso.avif",
+    descripcion: "Eres estratégico, astuto y extremadamente resiliente."
   },
   antonelli: {
     nombre: "Kimi Antonelli",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres agresivo y dominante."
+    imagen: "assets/Kimi Antonelli.webp",
+    descripcion: "Eres joven, ambicioso y lleno de potencial."
   },
   russell: {
     nombre: "George Russell",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres carismático y divertido."
+    imagen: "assets/george russell.webp",
+    descripcion: "Eres metódico, inteligente y constante."
   },
   colapinto: {
     nombre: "Franco Colapinto",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres agresivo y dominante."
+    imagen: "assets/franco colapinto.webp",
+    descripcion: "Eres espontáneo, seguro y con mucha actitud."
   },
   checo: {
     nombre: "Checo Perez",
-    imagen: "https://via.placeholder.com/300",
-    descripcion: "Eres carismático y divertido."
+    imagen: "assets/checo perez.jpg",
+    descripcion: "Eres paciente, fuerte y leal."
   }
   
 };
